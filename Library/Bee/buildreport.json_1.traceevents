@@ -1,611 +1,587 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1665729101293528, "dur": 2977483, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729101294038, "dur": 17946, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729101311986, "dur": 110887, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729101422875, "dur": 1318465, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729102741342, "dur": 1518758, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729104260102, "dur": 10908, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729104272279, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772002249081, "dur": 4625656, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772002249518, "dur": 8712, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772002258233, "dur": 113688, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772002372020, "dur": 4106409, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772006478431, "dur": 386409, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772006864843, "dur": 9893, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772006875727, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665772002327863, "dur":2799, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002330684, "dur":144, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665772002330855, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665772002330883, "dur":1546, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665772002332476, "dur":803, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002333279, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002341275, "dur":459, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002341735, "dur":306, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342041, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342050, "dur":77, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342127, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342251, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342265, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342268, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342278, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342281, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342289, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342292, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342300, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342303, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342312, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342315, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342322, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342324, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342333, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342335, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342343, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342346, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342355, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342358, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342365, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342368, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342376, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342379, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342391, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342394, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342402, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342405, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342412, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342414, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342422, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342425, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342433, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342436, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342443, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342446, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342454, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342456, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342463, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342465, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342473, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342476, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342483, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342485, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342494, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342495, "dur":20, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002342517, "dur":3043, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665772002332621, "dur":670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772002333293, "dur":7968, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772002332778, "dur":613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772002333392, "dur":7916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772002332744, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772002333343, "dur":7948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772002332902, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772002333438, "dur":7850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772002333032, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772002333473, "dur":7796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772002333102, "dur":403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772002333505, "dur":7791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772002333176, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772002333517, "dur":7776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772002333254, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772002333526, "dur":7825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772002333376, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772002333376, "dur":7906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772002333446, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772002333447, "dur":7850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772002333502, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772002333503, "dur":7798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772002333635, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772002333636, "dur":7681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772002333714, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772002333715, "dur":7590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772002333799, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772002333800, "dur":7466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772002333908, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772002333909, "dur":7368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772002333995, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772002333996, "dur":7276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772002334154, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772002334155, "dur":7157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772002334264, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772002334265, "dur":7010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772002334377, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772002334378, "dur":6916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772002334470, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772002334470, "dur":6816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772002334532, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772002334533, "dur":6765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772002334619, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772002334619, "dur":6670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772002334779, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772002334781, "dur":6503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772002334852, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772002334853, "dur":6426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772002348430, "dur":1115, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665772006875880, "dur": 665, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1665729102372576, "dur": 343182, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1665729102374639, "dur": 82617, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1665729102687252, "dur": 8358, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1665729102695614, "dur": 20132, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1665729102696868, "dur": 17516, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1665729102723610, "dur": 2250, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1665729102722271, "dur": 3626, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729104272444, "dur": 483, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772004366229, "dur": 1878617, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772004367841, "dur": 1084371, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772006160124, "dur": 16119, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772006176246, "dur": 68589, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772006177333, "dur": 65949, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772006278857, "dur": 2135, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665772006272102, "dur": 8959, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772006876673, "dur": 403, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1665729102853266, "dur":4602, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729102857895, "dur":159, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1665729102858118, "dur":48, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1665729102858170, "dur":3173, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1665729102861458, "dur":1196, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729102862654, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104221229, "dur":909, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222138, "dur":379, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222517, "dur":49, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222566, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222635, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222642, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222666, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222670, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222684, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222687, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222702, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222705, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222725, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222727, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222740, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222743, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222754, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222756, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104222801, "dur":249, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223050, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223082, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223089, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223106, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223112, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223128, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223133, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223148, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223153, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223169, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223174, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223191, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223196, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223212, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223218, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223233, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223238, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223254, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223259, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223274, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223279, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223294, "dur":68, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223362, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223377, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223382, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223396, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223402, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223416, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223421, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223444, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223460, "dur":101, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104223565, "dur":5623, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1665729102860232, "dur":2476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729102862709, "dur":17820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729102880555, "dur":54044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1665729102934610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103018885, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1665729103022944, "dur":36390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103059343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103059355, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103062560, "dur":59433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103121998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103122005, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103125753, "dur":69400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103195160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103195169, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103198913, "dur":67666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103266583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103266590, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103269918, "dur":123017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103392942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103392953, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103396449, "dur":226828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103623288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665729103623315, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665729103628008, "dur":593193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729102860327, "dur":2392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729102862720, "dur":17833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729102880566, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1665729102881012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103018323, "dur":27183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1665729103045551, "dur":18546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103064101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103064108, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103066461, "dur":23396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103089865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103089879, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103093168, "dur":27357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103120532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103120542, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103124645, "dur":67214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103191978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103191988, "dur":3317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103195443, "dur":27936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103223386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103223397, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103226960, "dur":1695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103228661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103228670, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103231961, "dur":52752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103284724, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103284781, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103288175, "dur":219387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103507568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665729103507577, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665729103510335, "dur":710904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729102860377, "dur":2388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729102862766, "dur":17777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729102880553, "dur":136994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1665729103017597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103018304, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1665729103022413, "dur":53432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103075856, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103075870, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103079728, "dur":41089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103120823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103120833, "dur":4181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103125149, "dur":26623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103151779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103151789, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103154805, "dur":30078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103184889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103184899, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103188022, "dur":26617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103214646, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103214865, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103219176, "dur":34942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103254125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103254136, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103256931, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103257824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103257833, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103261206, "dur":1567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103262779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103262789, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103265645, "dur":28636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103294286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103294294, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103297127, "dur":45984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103343118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103343131, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103345859, "dur":154506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103500384, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665729103500403, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665729103503799, "dur":717400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729102860476, "dur":2338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729102862815, "dur":17767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729102880583, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1665729102880764, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729102889178, "dur":17345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1665729102906562, "dur":110955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103017588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729103019577, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103025892, "dur":26143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103052040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729103052167, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103056139, "dur":230765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103286911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729103286921, "dur":4717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103291753, "dur":214608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103506371, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665729103506386, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665729103509627, "dur":711583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729102861882, "dur":1212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729102863095, "dur":17480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729102880583, "dur":146485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1665729103027076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103027089, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1665729103030083, "dur":32621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103062711, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103062726, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103066008, "dur":47191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103113210, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103113228, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103117002, "dur":29499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103146508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103146518, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103150549, "dur":52186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103202743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103202755, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103206188, "dur":55734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103261928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103261939, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103265252, "dur":39610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103304868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103304879, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103307644, "dur":240777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103548425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665729103548432, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665729103551344, "dur":669875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665729102860711, "dur":2156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665729102862868, "dur":17771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665729102880640, "dur":545743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1665729103426389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665729103426396, "dur":5620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1665729103432060, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1665729103432183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665729103432190, "dur":5438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1665729103437741, "dur":783491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729102860830, "dur":2082, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729102862912, "dur":17685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729102880598, "dur":150740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1665729103031345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729103031357, "dur":3917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1665729103035331, "dur":83326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103118664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729103118691, "dur":3937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103122762, "dur":24911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103147680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729103147691, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103151543, "dur":143447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103294997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729103295007, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103297703, "dur":133372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103431080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665729103431088, "dur":10554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665729103441758, "dur":779471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729102860899, "dur":2034, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729102862934, "dur":17638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729102880573, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1665729102880759, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729102886727, "dur":19868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1665729102906630, "dur":111080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103017729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729103019656, "dur":6003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103025802, "dur":34617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103060423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729103060431, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103063393, "dur":132426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103195824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729103195831, "dur":3921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103199878, "dur":28394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103228279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729103228290, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103231734, "dur":35314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103267054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729103267064, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103270448, "dur":328556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103599036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665729103599045, "dur":5270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665729103604393, "dur":616831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1665729102860961, "dur":1993, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1665729102862954, "dur":17663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1665729102880624, "dur":697259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1665729103577887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1665729103578406, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1665729103580915, "dur":640307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1665729102862399, "dur":782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1665729102863182, "dur":17445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1665729102880634, "dur":981715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1665729103862358, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1665729103862568, "dur":19346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1665729103881970, "dur":339264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729102861113, "dur":1867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729102862980, "dur":17604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729102880588, "dur":29022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1665729102909618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729102909633, "dur":109650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1665729103019320, "dur":54259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103073587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729103073599, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103076795, "dur":71532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103148334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729103148344, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103152173, "dur":27521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103179704, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729103179742, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103183684, "dur":37386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103221077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729103221092, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103224499, "dur":322882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103547388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1665729103547398, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":11, "ts":1665729103549977, "dur":671220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729102862512, "dur":680, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729102863192, "dur":17457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729102880649, "dur":2772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods.exe" }}
-,{ "pid":12345, "tid":12, "ts":1665729102883428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729102883822, "dur":9388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods.exe" }}
-,{ "pid":12345, "tid":12, "ts":1665729102893299, "dur":125262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103018572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103019969, "dur":6256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103026439, "dur":26288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103052733, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103052746, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103056514, "dur":44020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103100539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103100546, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103103132, "dur":29052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103132191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103132201, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103136266, "dur":31838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103168111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103168121, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103171511, "dur":32310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103203827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103203838, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103207135, "dur":183445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103390590, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103390604, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103393527, "dur":330067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103723603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1665729103723618, "dur":11269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1665729103734968, "dur":486236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729102861329, "dur":1704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729102863033, "dur":17574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729102880608, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1665729102880854, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729102910567, "dur":499443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1665729103410055, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":13, "ts":1665729103410198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103410205, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":13, "ts":1665729103412793, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":13, "ts":1665729103412913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103412921, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":13, "ts":1665729103415865, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":13, "ts":1665729103415999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103416006, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":13, "ts":1665729103419125, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1665729103419252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103419260, "dur":4327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1665729103423761, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":13, "ts":1665729103424136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103424145, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":13, "ts":1665729103427111, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level2" }}
-,{ "pid":12345, "tid":13, "ts":1665729103427234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103427240, "dur":4133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level2" }}
-,{ "pid":12345, "tid":13, "ts":1665729103431484, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1665729103431606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1665729103431613, "dur":12432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1665729103444222, "dur":776980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1665729102861411, "dur":1633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1665729102863044, "dur":17532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1665729102880577, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1665729102881024, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1665729103025241, "dur":317203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1665729103342488, "dur":50810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":14, "ts":1665729103393304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1665729103393313, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":14, "ts":1665729103396450, "dur":55375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":14, "ts":1665729103451839, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1665729103451857, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":14, "ts":1665729103455654, "dur":765541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729102861541, "dur":1514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729102863055, "dur":17560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729102880616, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1665729102881031, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729103031242, "dur":84936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1665729103116237, "dur":51850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103168094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729103168106, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103171172, "dur":76740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103247919, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729103247931, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103251202, "dur":74218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103325427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729103325437, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103328914, "dur":242022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103570943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1665729103570953, "dur":4483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":15, "ts":1665729103575518, "dur":645708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729102861673, "dur":1403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729102863076, "dur":17487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729102880565, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1665729102880775, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729102895729, "dur":12879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1665729102908640, "dur":108933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103017585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103019247, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103024248, "dur":125303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103149558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103149713, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103152937, "dur":24680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103177624, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103177634, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103180765, "dur":44308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103225080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103225089, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103228294, "dur":63473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103291773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103291785, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103295005, "dur":103920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103398932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103398942, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":16, "ts":1665729103401705, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":16, "ts":1665729103401982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103402828, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":16, "ts":1665729103405278, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":16, "ts":1665729103405392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103405503, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":16, "ts":1665729103408610, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":16, "ts":1665729103408719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103408727, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":16, "ts":1665729103411731, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1665729103411848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103411855, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1665729103415280, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1665729103415400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103415407, "dur":9794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1665729103425323, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level4" }}
-,{ "pid":12345, "tid":16, "ts":1665729103425446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103425453, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level4" }}
-,{ "pid":12345, "tid":16, "ts":1665729103428825, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level1" }}
-,{ "pid":12345, "tid":16, "ts":1665729103429043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103429050, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level1" }}
-,{ "pid":12345, "tid":16, "ts":1665729103433004, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":16, "ts":1665729103433128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1665729103433135, "dur":5814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":16, "ts":1665729103439066, "dur":782141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729102860632, "dur":2193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729102862825, "dur":17742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729102880569, "dur":34500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1665729102915074, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729102915084, "dur":104842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1665729103019956, "dur":32161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103052122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729103052269, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103056393, "dur":20383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103076784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729103076794, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103080606, "dur":39022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103119636, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729103119648, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103123912, "dur":56421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103180340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729103180350, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103184148, "dur":174727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103358882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729103358896, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103364046, "dur":150185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103514237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1665729103514245, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":17, "ts":1665729103517117, "dur":704103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1665729102862019, "dur":1109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1665729102863129, "dur":17504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1665729102880634, "dur":1308284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":18, "ts":1665729104188925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1665729104188944, "dur":32147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":18, "ts":1665729104221127, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":18, "ts":1665729104221130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729102862148, "dur":994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729102863142, "dur":17415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729102880557, "dur":150918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1665729103031483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103031496, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1665729103035753, "dur":89637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103125397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103125407, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103128591, "dur":51443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103180041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103180052, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103183905, "dur":30730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103214645, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103214870, "dur":4063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103219069, "dur":56115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103275191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103275201, "dur":4038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103279373, "dur":136508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103415887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103415897, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":19, "ts":1665729103419919, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":19, "ts":1665729103420046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103420053, "dur":6142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":19, "ts":1665729103426306, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level3" }}
-,{ "pid":12345, "tid":19, "ts":1665729103426418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103426425, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level3" }}
-,{ "pid":12345, "tid":19, "ts":1665729103429758, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level0" }}
-,{ "pid":12345, "tid":19, "ts":1665729103429880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103429887, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level0" }}
-,{ "pid":12345, "tid":19, "ts":1665729103434058, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1665729103434351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1665729103434358, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1665729103439133, "dur":782059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1665729102862264, "dur":892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1665729102863156, "dur":17404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1665729102880566, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1665729102881161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1665729103036621, "dur":306693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1665729103343356, "dur":188770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":20, "ts":1665729103532132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1665729103532143, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":20, "ts":1665729103535726, "dur":685467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729102861050, "dur":1918, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729102862969, "dur":17624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729102880612, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":21, "ts":1665729102880795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729102902509, "dur":149705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":21, "ts":1665729103052261, "dur":66404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103118672, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729103118694, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103123134, "dur":22962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103146108, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729103146124, "dur":3606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103149871, "dur":31413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103181291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729103181300, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103184647, "dur":30303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103214955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729103214963, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103219539, "dur":101810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103321355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729103321364, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103324677, "dur":250436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103575118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1665729103575126, "dur":4901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":21, "ts":1665729103580111, "dur":641104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729102861206, "dur":1801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729102863007, "dur":17602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729102880610, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":22, "ts":1665729102880769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729102885913, "dur":162583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":22, "ts":1665729103048546, "dur":47292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103095845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103095858, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103098837, "dur":33326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103132171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103132183, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103136192, "dur":29357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103165561, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103165575, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103169317, "dur":26164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103195488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103195499, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103199225, "dur":48126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103247360, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103247375, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103250757, "dur":1677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103252440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103252451, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103255934, "dur":1620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103257561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103257572, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103260976, "dur":38451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103299431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103299438, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103302227, "dur":46205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103348438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103348450, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103351386, "dur":156174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103507567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1665729103507577, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":22, "ts":1665729103510422, "dur":710784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729102862585, "dur":668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729102863253, "dur":17287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729102880553, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":23, "ts":1665729102880756, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729102887260, "dur":19709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":23, "ts":1665729102907014, "dur":111528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103018559, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729103019967, "dur":6512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103026719, "dur":25235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103051963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729103052135, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103056180, "dur":218341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103274530, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729103274548, "dur":4414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103279109, "dur":91338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103370491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729103370503, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103373382, "dur":64750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103438137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1665729103438146, "dur":8494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":23, "ts":1665729103446748, "dur":774469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729102862656, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729102862658, "dur":17827, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729102880614, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":24, "ts":1665729102880636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729102884751, "dur":792, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":24, "ts":1665729102885547, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/app.info" }}
-,{ "pid":12345, "tid":24, "ts":1665729102885675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729102886699, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/app.info" }}
-,{ "pid":12345, "tid":24, "ts":1665729102891611, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":24, "ts":1665729102891669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729102892425, "dur":399979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":24, "ts":1665729103292450, "dur":128586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":24, "ts":1665729103421044, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729103421059, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":24, "ts":1665729103424354, "dur":5508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":24, "ts":1665729103429869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1665729103429880, "dur":9054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":24, "ts":1665729103439065, "dur":782147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665729104234521, "dur":7288, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1665729104273082, "dur": 1576, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665729104272240, "dur": 2447, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1665772006567371, "dur":2974, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006570361, "dur":160, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665772006570546, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665772006570581, "dur":1621, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665772006572261, "dur":875, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006573136, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006816436, "dur":723, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817159, "dur":201, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817360, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817527, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817548, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817554, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817569, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817572, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817588, "dur":190, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817778, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817807, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817814, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817831, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817836, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817853, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817858, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817874, "dur":88, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817962, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817980, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006817986, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818003, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818008, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818024, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818030, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818046, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818051, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818068, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818074, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818090, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818095, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818111, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818117, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818133, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818138, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818155, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818160, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818183, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818188, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818205, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818210, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818225, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818230, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818248, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818254, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818270, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818275, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818291, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818296, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818316, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818339, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006818405, "dur":5924, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665772006572574, "dur":575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006573151, "dur":10128, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006583300, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665772006583303, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006583636, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665772006583643, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006583923, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665772006584080, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006584231, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665772006584396, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006584617, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665772006584765, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006584933, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665772006585411, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006585543, "dur":3888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665772006589432, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006589578, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1665772006589765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006589786, "dur":8483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1665772006598408, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665772006598560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665772006598568, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1665772006604092, "dur":212333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006572682, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006573200, "dur":10128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006583328, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665772006583407, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006583587, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665772006583951, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006584350, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665772006584674, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006584937, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665772006585186, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006585437, "dur":2725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665772006588162, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006588369, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1665772006588821, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006588996, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1665772006589174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665772006589184, "dur":9361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1665772006598764, "dur":217649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006572802, "dur":450, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006573252, "dur":10074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006583327, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665772006583480, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006583761, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665772006584056, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006584336, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665772006584469, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006584697, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665772006584942, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006585135, "dur":230944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665772006816080, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665772006816306, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1665772006816308, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006572902, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006573271, "dur":10077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006583350, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665772006583549, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006583935, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665772006584207, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006584592, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665772006584866, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006585206, "dur":46734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665772006631940, "dur":81185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665772006713129, "dur":103327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006573018, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006573389, "dur":9927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006583318, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1665772006583438, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006583749, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665772006584082, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006584355, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665772006584677, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006584961, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665772006585462, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006585686, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665772006585957, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006586096, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665772006586230, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006586360, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1665772006586733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665772006589696, "dur":9678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1665772006599609, "dur":216865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006573085, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006573401, "dur":9944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006583347, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665772006583540, "dur":414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006583955, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665772006584150, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006584396, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665772006584683, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006584834, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665772006584966, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006585209, "dur":44377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665772006629586, "dur":83535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665772006713127, "dur":103313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006573168, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006573169, "dur":10133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006583303, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1665772006583447, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006583606, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665772006583952, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006584238, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665772006584441, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006584926, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665772006585073, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006585204, "dur":61566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665772006646771, "dur":66399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665772006713174, "dur":103244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006573354, "dur":6, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006573360, "dur":9970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006583336, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1665772006583634, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006583840, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665772006584035, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006584393, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665772006584594, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006584828, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665772006585241, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006585516, "dur":127613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665772006713130, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665772006713343, "dur":103138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006573433, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006573434, "dur":9855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006583300, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1665772006583400, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006583555, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1665772006583634, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006583904, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665772006584098, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006584248, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665772006584476, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006584656, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665772006584793, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006585031, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665772006585451, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006585671, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665772006585815, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006586012, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665772006586242, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006586472, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1665772006586734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006588347, "dur":8947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1665772006597530, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1665772006597778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665772006597797, "dur":4926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1665772006602888, "dur":213574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006573561, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006573562, "dur":9739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006583302, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1665772006583398, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006583830, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665772006584255, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006584690, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665772006585004, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006585165, "dur":3690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665772006588855, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006588986, "dur":2060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1665772006591047, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006591167, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1665772006591276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006591285, "dur":6995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1665772006598465, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1665772006598615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665772006598623, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1665772006603915, "dur":212555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006573630, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006573631, "dur":9673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006583305, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1665772006583394, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006583586, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665772006583791, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006584221, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665772006584429, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006584756, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665772006584953, "dur":486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006585441, "dur":2291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665772006587733, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006587994, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665772006588237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665772006588252, "dur":13366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1665772006601750, "dur":214714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006573715, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006573716, "dur":9623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006583340, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1665772006583562, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006583751, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665772006583996, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006584211, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665772006584545, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006584818, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665772006585230, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006585465, "dur":3812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665772006589277, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006589507, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1665772006589856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006589889, "dur":8144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1665772006598161, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1665772006598306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665772006598312, "dur":116244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1665772006714727, "dur":101745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006573795, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006573796, "dur":9541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006583339, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1665772006583538, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006583936, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665772006584138, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006584361, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665772006584715, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006585023, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665772006585434, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006585649, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665772006585899, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006586043, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665772006586167, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006586315, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":13, "ts":1665772006586454, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006586601, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665772006586766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1665772006599552, "dur":6092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1665772006605773, "dur":210637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006573878, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006573879, "dur":9463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006583344, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1665772006583485, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006583970, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665772006584157, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006584477, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665772006584756, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006584978, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665772006585454, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006585763, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665772006586066, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006586328, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1665772006586567, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006586833, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1665772006587143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1665772006729313, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1665772006731414, "dur":85006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006574004, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006574005, "dur":9318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006583325, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1665772006583480, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006583762, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665772006584359, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006584604, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665772006584911, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006585119, "dur":76568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1665772006661687, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1665772006661831, "dur":154591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006574133, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006574134, "dur":9232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006583370, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1665772006583627, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006583949, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665772006584227, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006584491, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665772006584749, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006585025, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665772006585221, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006585624, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665772006585864, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006586004, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665772006586134, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006586329, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1665772006586613, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006586858, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1665772006587067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1665772006720843, "dur":11508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1665772006732514, "dur":83913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006574263, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006574264, "dur":9055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006583320, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1665772006583547, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006583942, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1665772006584156, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006584379, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1665772006584578, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006584731, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1665772006584904, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006585116, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1665772006585229, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006585457, "dur":41049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1665772006626507, "dur":86607, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1665772006713123, "dur":103301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006574405, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006574406, "dur":8967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006583374, "dur":1791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods.exe" }}
+,{ "pid":12345, "tid":18, "ts":1665772006585165, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006585626, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":18, "ts":1665772006585768, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006585921, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1665772006586063, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006586191, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1665772006586342, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006586513, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":18, "ts":1665772006586654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1665772006587728, "dur":15846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":18, "ts":1665772006603710, "dur":212737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006574477, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006574477, "dur":8837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006583315, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1665772006583561, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006583765, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1665772006583955, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006584198, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1665772006584564, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006584971, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1665772006585122, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006585423, "dur":2429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":19, "ts":1665772006587852, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006587991, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1665772006588152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006588176, "dur":10308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1665772006598610, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/boot.config" }}
+,{ "pid":12345, "tid":19, "ts":1665772006598958, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1665772006599093, "dur":217323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006574559, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006574560, "dur":8747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006583328, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1665772006583424, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006583718, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1665772006584120, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006584268, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1665772006584418, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006584606, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1665772006584735, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006585081, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1665772006585435, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006585664, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":20, "ts":1665772006585872, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006586019, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":20, "ts":1665772006586150, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006586359, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":20, "ts":1665772006586877, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006586986, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":20, "ts":1665772006587149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1665772006725069, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":20, "ts":1665772006727383, "dur":89059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772006574624, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772006574625, "dur":8665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772006583300, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":21, "ts":1665772006583638, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772006584034, "dur":134861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":21, "ts":1665772006718896, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1665772006719093, "dur":97359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006574751, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006574752, "dur":8540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006583300, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":22, "ts":1665772006583544, "dur":582, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006584129, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1665772006584411, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006584695, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1665772006585443, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006585715, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":22, "ts":1665772006585924, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006586077, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":22, "ts":1665772006586217, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006586353, "dur":39661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":22, "ts":1665772006626015, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1665772006626153, "dur":190259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006574830, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006574831, "dur":8527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006583363, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":23, "ts":1665772006583549, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006583744, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1665772006583945, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006584122, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1665772006584352, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006584489, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1665772006584675, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006584879, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1665772006585144, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006585425, "dur":71590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":23, "ts":1665772006657015, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1665772006657179, "dur":159259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006574918, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006574920, "dur":8400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006583322, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":24, "ts":1665772006583405, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006583711, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1665772006584147, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006584411, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1665772006584810, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006585064, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1665772006585447, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006585655, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":24, "ts":1665772006585845, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006586050, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":24, "ts":1665772006586183, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006586317, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":24, "ts":1665772006586442, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006586570, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":24, "ts":1665772006586821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1665772006713465, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Exe/The Creed Of Gods_Data/The Creed Of Gods_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":24, "ts":1665772006717251, "dur":99184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665772006829359, "dur":3953, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665772006877191, "dur": 1087, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665772006875701, "dur": 2623, "ph": "X", "name": "Write chrome-trace events", "args": {} },

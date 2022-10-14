@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Patinete
   unitLevel: 10
-  damage: 3
+  damage: 4
   maxHP: 33
   currentHP: 30
 --- !u!1 &7844129057139105538
